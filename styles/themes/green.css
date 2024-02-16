@@ -1,0 +1,377 @@
+:root {
+  --color-material-theme-white: rgba(255, 255, 255);
+  --color-material-theme-black: rgba(0, 0, 0);
+  --color-material-theme-sys-light-primary: rgba(0, 109, 60);
+  --color-material-theme-sys-light-on-primary: rgba(255, 255, 255);
+  --color-material-theme-sys-light-primary-container: rgba(136, 249, 176);
+  --color-material-theme-sys-light-on-primary-container: rgba(0, 33, 14);
+  --color-material-theme-sys-light-secondary: rgba(79, 99, 83);
+  --color-material-theme-sys-light-on-secondary: rgba(255, 255, 255);
+  --color-material-theme-sys-light-secondary-container: rgba(210, 232, 212);
+  --color-material-theme-sys-light-on-secondary-container: rgba(13, 31, 19);
+  --color-material-theme-sys-light-tertiary: rgba(58, 100, 111);
+  --color-material-theme-sys-light-on-tertiary: rgba(255, 255, 255);
+  --color-material-theme-sys-light-tertiary-container: rgba(190, 234, 247);
+  --color-material-theme-sys-light-on-tertiary-container: rgba(0, 31, 38);
+  --color-material-theme-sys-light-error: rgba(186, 26, 26);
+  --color-material-theme-sys-light-on-error: rgba(255, 255, 255);
+  --color-material-theme-sys-light-error-container: rgba(255, 218, 214);
+  --color-material-theme-sys-light-on-error-container: rgba(65, 0, 2);
+  --color-material-theme-sys-light-outline: rgba(113, 121, 113);
+  --color-material-theme-sys-light-background: rgba(251, 253, 248);
+  --color-material-theme-sys-light-on-background: rgba(25, 28, 25);
+  --color-material-theme-sys-light-surface: rgba(251, 253, 248);
+  --color-material-theme-sys-light-on-surface: rgba(25, 28, 25);
+  --color-material-theme-sys-light-surface-variant: rgba(221, 229, 219);
+  --color-material-theme-sys-light-on-surface-variant: rgba(65, 73, 66);
+  --color-material-theme-sys-light-inverse-surface: rgba(46, 49, 46);
+  --color-material-theme-sys-light-inverse-on-surface: rgba(240, 241, 236);
+  --color-material-theme-sys-light-inverse-primary: rgba(108, 220, 150);
+  --color-material-theme-sys-light-shadow: rgba(0, 0, 0);
+  --color-material-theme-sys-light-surface-tint: rgba(0, 109, 60);
+  --color-material-theme-sys-light-outline-variant: rgba(192, 201, 191);
+  --color-material-theme-sys-light-scrim: rgba(0, 0, 0);
+  --color-material-theme-sys-dark-primary: rgba(108, 220, 150);
+  --color-material-theme-sys-dark-on-primary: rgba(0, 57, 29);
+  --color-material-theme-sys-dark-primary-container: rgba(0, 82, 44);
+  --color-material-theme-sys-dark-on-primary-container: rgba(136, 249, 176);
+  --color-material-theme-sys-dark-secondary: rgba(182, 204, 185);
+  --color-material-theme-sys-dark-on-secondary: rgba(34, 53, 39);
+  --color-material-theme-sys-dark-secondary-container: rgba(56, 75, 61);
+  --color-material-theme-sys-dark-on-secondary-container: rgba(210, 232, 212);
+  --color-material-theme-sys-dark-tertiary: rgba(162, 205, 218);
+  --color-material-theme-sys-dark-on-tertiary: rgba(2, 54, 64);
+  --color-material-theme-sys-dark-tertiary-container: rgba(33, 76, 87);
+  --color-material-theme-sys-dark-on-tertiary-container: rgba(190, 234, 247);
+  --color-material-theme-sys-dark-error: rgba(255, 180, 171);
+  --color-material-theme-sys-dark-on-error: rgba(105, 0, 5);
+  --color-material-theme-sys-dark-error-container: rgba(147, 0, 10);
+  --color-material-theme-sys-dark-on-error-container: rgba(255, 218, 214);
+  --color-material-theme-sys-dark-outline: rgba(139, 147, 138);
+  --color-material-theme-sys-dark-background: rgba(25, 28, 25);
+  --color-material-theme-sys-dark-on-background: rgba(225, 227, 222);
+  --color-material-theme-sys-dark-surface: rgba(25, 28, 25);
+  --color-material-theme-sys-dark-on-surface: rgba(197, 199, 194);
+  --color-material-theme-sys-dark-surface-variant: rgba(65, 73, 66);
+  --color-material-theme-sys-dark-on-surface-variant: rgba(192, 201, 191);
+  --color-material-theme-sys-dark-inverse-surface: rgba(225, 227, 222);
+  --color-material-theme-sys-dark-inverse-on-surface: rgba(25, 28, 25);
+  --color-material-theme-sys-dark-inverse-primary: rgba(0, 109, 60);
+  --color-material-theme-sys-dark-shadow: rgba(0, 0, 0);
+  --color-material-theme-sys-dark-surface-tint: rgba(108, 220, 150);
+  --color-material-theme-sys-dark-outline-variant: rgba(65, 73, 66);
+  --color-material-theme-sys-dark-scrim: rgba(0, 0, 0);
+  --color-material-theme-ref-primary-primary-0: rgba(0, 0, 0);
+  --color-material-theme-ref-primary-primary-10: rgba(0, 33, 14);
+  --color-material-theme-ref-primary-primary-20: rgba(0, 57, 29);
+  --color-material-theme-ref-primary-primary-30: rgba(0, 82, 44);
+  --color-material-theme-ref-primary-primary-40: rgba(0, 109, 60);
+  --color-material-theme-ref-primary-primary-50: rgba(0, 137, 77);
+  --color-material-theme-ref-primary-primary-60: rgba(46, 164, 100);
+  --color-material-theme-ref-primary-primary-70: rgba(78, 192, 124);
+  --color-material-theme-ref-primary-primary-80: rgba(108, 220, 150);
+  --color-material-theme-ref-primary-primary-90: rgba(136, 249, 176);
+  --color-material-theme-ref-primary-primary-95: rgba(194, 255, 209);
+  --color-material-theme-ref-primary-primary-99: rgba(245, 255, 244);
+  --color-material-theme-ref-primary-primary-100: rgba(255, 255, 255);
+  --color-material-theme-ref-primary-primary-5: rgba(0, 21, 7);
+  --color-material-theme-ref-primary-primary-25: rgba(0, 69, 36);
+  --color-material-theme-ref-primary-primary-35: rgba(0, 95, 52);
+  --color-material-theme-ref-primary-primary-98: rgba(233, 255, 235);
+  --color-material-theme-ref-secondary-secondary-0: rgba(0, 0, 0);
+  --color-material-theme-ref-secondary-secondary-10: rgba(13, 31, 19);
+  --color-material-theme-ref-secondary-secondary-20: rgba(34, 53, 39);
+  --color-material-theme-ref-secondary-secondary-30: rgba(56, 75, 61);
+  --color-material-theme-ref-secondary-secondary-40: rgba(79, 99, 83);
+  --color-material-theme-ref-secondary-secondary-50: rgba(103, 124, 107);
+  --color-material-theme-ref-secondary-secondary-60: rgba(129, 150, 132);
+  --color-material-theme-ref-secondary-secondary-70: rgba(155, 177, 158);
+  --color-material-theme-ref-secondary-secondary-80: rgba(182, 204, 185);
+  --color-material-theme-ref-secondary-secondary-90: rgba(210, 232, 212);
+  --color-material-theme-ref-secondary-secondary-95: rgba(224, 247, 226);
+  --color-material-theme-ref-secondary-secondary-99: rgba(245, 255, 244);
+  --color-material-theme-ref-secondary-secondary-100: rgba(255, 255, 255);
+  --color-material-theme-ref-secondary-secondary-5: rgba(3, 20, 9);
+  --color-material-theme-ref-secondary-secondary-25: rgba(45, 64, 50);
+  --color-material-theme-ref-secondary-secondary-35: rgba(67, 87, 72);
+  --color-material-theme-ref-secondary-secondary-98: rgba(233, 255, 235);
+  --color-material-theme-ref-tertiary-tertiary-0: rgba(0, 0, 0);
+  --color-material-theme-ref-tertiary-tertiary-10: rgba(0, 31, 38);
+  --color-material-theme-ref-tertiary-tertiary-20: rgba(2, 54, 64);
+  --color-material-theme-ref-tertiary-tertiary-30: rgba(33, 76, 87);
+  --color-material-theme-ref-tertiary-tertiary-40: rgba(58, 100, 111);
+  --color-material-theme-ref-tertiary-tertiary-50: rgba(84, 125, 137);
+  --color-material-theme-ref-tertiary-tertiary-60: rgba(109, 151, 163);
+  --color-material-theme-ref-tertiary-tertiary-70: rgba(135, 178, 190);
+  --color-material-theme-ref-tertiary-tertiary-80: rgba(162, 205, 218);
+  --color-material-theme-ref-tertiary-tertiary-90: rgba(190, 234, 247);
+  --color-material-theme-ref-tertiary-tertiary-95: rgba(216, 246, 255);
+  --color-material-theme-ref-tertiary-tertiary-99: rgba(248, 253, 255);
+  --color-material-theme-ref-tertiary-tertiary-100: rgba(255, 255, 255);
+  --color-material-theme-ref-tertiary-tertiary-5: rgba(0, 20, 25);
+  --color-material-theme-ref-tertiary-tertiary-25: rgba(19, 65, 75);
+  --color-material-theme-ref-tertiary-tertiary-35: rgba(46, 88, 99);
+  --color-material-theme-ref-tertiary-tertiary-98: rgba(240, 251, 255);
+  --color-material-theme-ref-error-error-0: rgba(0, 0, 0);
+  --color-material-theme-ref-error-error-10: rgba(65, 0, 2);
+  --color-material-theme-ref-error-error-20: rgba(105, 0, 5);
+  --color-material-theme-ref-error-error-30: rgba(147, 0, 10);
+  --color-material-theme-ref-error-error-40: rgba(186, 26, 26);
+  --color-material-theme-ref-error-error-50: rgba(222, 55, 48);
+  --color-material-theme-ref-error-error-60: rgba(255, 84, 73);
+  --color-material-theme-ref-error-error-70: rgba(255, 137, 125);
+  --color-material-theme-ref-error-error-80: rgba(255, 180, 171);
+  --color-material-theme-ref-error-error-90: rgba(255, 218, 214);
+  --color-material-theme-ref-error-error-95: rgba(255, 237, 234);
+  --color-material-theme-ref-error-error-99: rgba(255, 251, 255);
+  --color-material-theme-ref-error-error-100: rgba(255, 255, 255);
+  --color-material-theme-ref-error-error-5: rgba(45, 0, 1);
+  --color-material-theme-ref-error-error-25: rgba(126, 0, 7);
+  --color-material-theme-ref-error-error-35: rgba(168, 7, 16);
+  --color-material-theme-ref-error-error-98: rgba(255, 248, 247);
+  --color-material-theme-ref-neutral-neutral-0: rgba(0, 0, 0);
+  --color-material-theme-ref-neutral-neutral-10: rgba(25, 28, 25);
+  --color-material-theme-ref-neutral-neutral-20: rgba(46, 49, 46);
+  --color-material-theme-ref-neutral-neutral-30: rgba(69, 71, 68);
+  --color-material-theme-ref-neutral-neutral-40: rgba(92, 95, 91);
+  --color-material-theme-ref-neutral-neutral-50: rgba(117, 120, 116);
+  --color-material-theme-ref-neutral-neutral-60: rgba(143, 145, 141);
+  --color-material-theme-ref-neutral-neutral-70: rgba(170, 172, 167);
+  --color-material-theme-ref-neutral-neutral-80: rgba(197, 199, 194);
+  --color-material-theme-ref-neutral-neutral-90: rgba(225, 227, 222);
+  --color-material-theme-ref-neutral-neutral-95: rgba(240, 241, 236);
+  --color-material-theme-ref-neutral-neutral-99: rgba(251, 253, 248);
+  --color-material-theme-ref-neutral-neutral-100: rgba(255, 255, 255);
+  --color-material-theme-ref-neutral-neutral-5: rgba(15, 18, 15);
+  --color-material-theme-ref-neutral-neutral-25: rgba(57, 60, 57);
+  --color-material-theme-ref-neutral-neutral-35: rgba(80, 83, 80);
+  --color-material-theme-ref-neutral-neutral-98: rgba(248, 250, 245);
+  --color-material-theme-ref-neutral-variant-neutral-variant-0: rgba(0, 0, 0);
+  --color-material-theme-ref-neutral-variant-neutral-variant-10: rgba(
+    22,
+    29,
+    23
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-20: rgba(
+    43,
+    50,
+    44
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-30: rgba(
+    65,
+    73,
+    66
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-40: rgba(
+    88,
+    96,
+    89
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-50: rgba(
+    113,
+    121,
+    113
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-60: rgba(
+    139,
+    147,
+    138
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-70: rgba(
+    165,
+    173,
+    164
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-80: rgba(
+    192,
+    201,
+    191
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-90: rgba(
+    221,
+    229,
+    219
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-95: rgba(
+    235,
+    243,
+    233
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-99: rgba(
+    246,
+    255,
+    244
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-100: rgba(
+    255,
+    255,
+    255
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-5: rgba(
+    11,
+    19,
+    13
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-25: rgba(
+    54,
+    61,
+    55
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-35: rgba(
+    76,
+    84,
+    77
+  );
+  --color-material-theme-ref-neutral-variant-neutral-variant-98: rgba(
+    243,
+    252,
+    242
+  );
+  --color-material-theme-key-colors-primary: rgba(40, 160, 96);
+  --color-material-theme-source-seed: rgba(40, 160, 96);
+  --color-material-theme-surfaces-light-surface-1: rgba(0, 109, 60);
+  --color-material-theme-surfaces-light-surface-2: rgba(0, 109, 60);
+  --color-material-theme-surfaces-light-surface-3: rgba(0, 109, 60);
+  --color-material-theme-surfaces-light-surface-4: rgba(0, 109, 60);
+  --color-material-theme-surfaces-light-surface-5: rgba(0, 109, 60);
+  --color-material-theme-surfaces-dark-surface-1: rgba(108, 220, 150);
+  --color-material-theme-surfaces-dark-surface-2: rgba(108, 220, 150);
+  --color-material-theme-surfaces-dark-surface-3: rgba(108, 220, 150);
+  --color-material-theme-surfaces-dark-surface-4: rgba(108, 220, 150);
+  --color-material-theme-surfaces-dark-surface-5: rgba(108, 220, 150);
+}
+.text-style-material-theme-display-large {
+  font-size: 57px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 64px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-display-medium {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 52px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-display-small {
+  font-size: 36px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 44px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-headline-large {
+  font-size: 32px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-headline-medium {
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 36px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-headline-small {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-title-large {
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-title-medium {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-title-small {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-body-large {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-body-medium {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-body-small {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-label-large {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-label-medium {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-style-material-theme-label-small {
+  font-size: 11px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
